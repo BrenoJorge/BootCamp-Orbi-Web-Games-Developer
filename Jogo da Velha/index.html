@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <header>
+        <h1 class="margin">Jogo da Velha</h1>
+    </header>
+    <main>
+        
+        <div class="margin" id="Jogador">
+            <label id="JogadorDaVez">
+                O jogador da vez é:
+            </label>            
+            <label id="jogador-selecionado">
+                
+            </label>
+        </div>
+        
+        <div>
+            <div id="1" class="quadrado" onclick="EscolherQuadrado(this.id)">-</div>
+            <div id="2" class="quadrado" class="quadrado" onclick="EscolherQuadrado(this.id)">-</div>
+            <div id="3" class="quadrado" class="quadrado" onclick="EscolherQuadrado(this.id)">-</div>
+        </div>
+        <div>
+            <div id="4" class="quadrado" class="quadrado" onclick="EscolherQuadrado(this.id)">-</div>
+            <div id="5" class="quadrado" class="quadrado" onclick="EscolherQuadrado(this.id)">-</div>
+            <div id="6" class="quadrado" class="quadrado" onclick="EscolherQuadrado(this.id)">-</div>
+        </div>
+        <div class="margin">
+            <div id="7" class="quadrado" class="quadrado" onclick="EscolherQuadrado(this.id)">-</div>
+            <div id="8" class="quadrado" class="quadrado" onclick="EscolherQuadrado(this.id)">-</div>
+            <div id="9" class="quadrado" class="quadrado" onclick="EscolherQuadrado(this.id)">-</div>
+        </div>
+        
+        <div class="margin">
+            <label id="vencedor-selecionado">                
+            </label>
+        </div>
+        <div>
+            <button onclick="reiniciar()" class="button-24" role="button">
+                Reiniciar
+            </button>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright © 2022, Breno Jorge</p>
+    </footer>
+    <script src="script/script.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+</body>
+</html>

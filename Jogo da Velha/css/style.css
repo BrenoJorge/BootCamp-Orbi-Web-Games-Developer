@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    background-color: rgb(20,54,100);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3vh;
+}
+.quadrado{
+    text-align:center;
+    width: 8vw;
+    background-color: rgb(16,44,87);
+    display: inline-block;
+    padding: 1%;
+    font-size: 15vh;
+    margin: 0.5%;
+    cursor: pointer;
+    color: rgb(16,44,87);
+    border-radius: 10%;
+    text-shadow: 2px 2px black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.margin{
+    margin: 1%;
+}
+.button-24 {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+footer{
+    background-color: #333;
+    font-size: 1vh;
+    margin-top: 10vh;
+    padding: 1%;
+    width: 98%;
+}
