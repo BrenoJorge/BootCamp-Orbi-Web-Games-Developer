@@ -1,8 +1,4 @@
-# Bootcamp Fullstack Eduzz-DIO <h1>
-
- Repositório criado para embarcar todo o conhecimento adquirido durante o BootCamp Órbi Web Games Developer realizado na plataforma DIO (Digital Innovation One).
-
-## Conteúdo visto nas aulas: <h2>
+Conteúdo visto nas aulas: <h1>
 
 ## Módulo I - Conceito de abertura<h3>
 
