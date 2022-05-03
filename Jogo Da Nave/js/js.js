@@ -4,7 +4,7 @@ function start() { // Inicio da função start()
 
 	var posicaoY = parseInt(Math.random() * 334);
 	var jogo = {}
-	var TECLA = { W: 87, S: 83, D: 68 }
+	var TECLA = { SetaPraCima: 38, SetaPraBaixo: 40, D: 68 }
 	var velocidade = 5;
 	var podeAtirar = true;
 	var fimdejogo = false;
@@ -77,7 +77,7 @@ function start() { // Inicio da função start()
 
 	function movejogador() {
 
-		if (jogo.pressionou[TECLA.W]) {
+		if (jogo.pressionou[TECLA.SetaPraCima]) {
 			var topo = parseInt($("#jogador").css("top"));
 			$("#jogador").css("top", topo - 10);
 
@@ -86,7 +86,7 @@ function start() { // Inicio da função start()
 			}
 		}
 
-		if (jogo.pressionou[TECLA.S]) {
+		if (jogo.pressionou[TECLA.SetaPraBaixo]) {
 
 			var topo = parseInt($("#jogador").css("top"));
 			$("#jogador").css("top", topo + 10);
