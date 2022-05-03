@@ -1,4 +1,4 @@
-Conteúdo visto nas aulas: <h1>
+## Conteúdo visto nas aulas: <h1>
 
 ## Módulo I - Conceito de abertura<h3>
 
